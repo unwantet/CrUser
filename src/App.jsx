@@ -38,7 +38,7 @@ function App() {
         <UserList users={users} deleteUser={deleteUser}/>
         {showModal && <NewUserForm addUser={addUser}/>}
          <div onClick={() => setShowModal(true)} className="cardAdder">
-          <img className="add-icon" src="../public/free-icon-post-7263985.png" alt="add-icon" />
+          <h1>+</h1>
           <h2>Add a new card</h2>
          </div>
          
