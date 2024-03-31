@@ -38,7 +38,7 @@ function App() {
         <UserList users={users} deleteUser={deleteUser}/>
         {showModal && <NewUserForm addUser={addUser}/>}
          <div onClick={() => setShowModal(true)} className="cardAdder">
-          <h1>+</h1>
+          <h1 className="h1">+</h1>
           <h2>Add a new card</h2>
          </div>
          
