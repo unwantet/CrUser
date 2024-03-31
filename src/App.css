@@ -1,0 +1,33 @@
+.App {
+    height: 100%;
+}
+.cardAdder{
+    width: 266px;
+    height: 375px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 370px;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.add-icon{
+    width: 200px;
+    height: 200px;
+}
+
+
+main {
+    flex-grow: 1;
+    margin-bottom: 5rem;
+    margin-top: 10rem;
+	gap: 14px 16px;
+	width: 100%;
+	height: 100%;
+}
+
+
+
